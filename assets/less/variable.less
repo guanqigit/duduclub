@@ -1,0 +1,24 @@
+@primary-color:#2d8cf0;
+
+@body-color:#f2f2f2;
+
+@border-color:#dcdee2;
+
+@label-color:#aaa;
+
+@radius:4px;
+
+@space-width:10px;
+
+@header-height:50px;
+
+@side-nav-width:240px;
+
+//element 上下左右居中
+.center(@index:1) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    z-index: @index;
+}

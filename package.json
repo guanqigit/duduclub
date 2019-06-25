@@ -1,0 +1,31 @@
+{
+  "name": "dudu-housekeeper",
+  "version": "1.0.0",
+  "description": "嘟嘟管家后台管理系统",
+  "author": "陈玉巧",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt --hostname 0.0.0.0  --port 3000",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.4.1",
+    "@nuxtjs/style-resources": "^0.1.2",
+    "ali-oss": "^6.1.1",
+    "cookieparser": "^0.1.0",
+    "cross-env": "^5.2.0",
+    "js-cookie": "^2.2.0",
+    "nuxt": "^2.4.0",
+    "sha1": "^1.1.1",
+    "vue-quill-editor": "^3.0.6"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.11.0",
+    "iview": "^3.3.3",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "nodemon": "^1.18.9"
+  }
+}
